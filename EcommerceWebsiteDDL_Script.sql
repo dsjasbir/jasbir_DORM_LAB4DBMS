@@ -1,5 +1,6 @@
 -- Data Definition Language (DDL)
 
+-- drop database `E-commerce_Order-directory`
 
 -- Creaating Database
 Create Database if not exists `E-commerce_Order-directory`;
@@ -27,7 +28,7 @@ SUPP_PHONE varchar(10) not null
  
 
  -- Category table 
- Create table if not exists category(
+ Create table if not exists `category`(
  CAT_ID int primary key,
  CAT_NAME varchar(20) not null
  ); 
